@@ -8,7 +8,7 @@ import type { AppConfig, Cita, CitaEstado, Dashboard } from './types';
 
 const API_URL =
   process.env.NEXT_PUBLIC_API_URL ||
-  'https://script.google.com/macros/s/REEMPLAZA-CON-TU-ID/exec';
+  'https://script.google.com/macros/s/AKfycbxIpslooNGNBqrg6NAGwk5ElppYHDtC5sOPHU1uWoiaLu_73hs-wdQpIKjWgUe1XrTNKA/exec';
 
 export function getToken(): string {
   if (typeof window === 'undefined') return '';
